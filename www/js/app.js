@@ -35,7 +35,7 @@ function onAppReady() {
     }
 }
 document.addEventListener("app.Ready", onAppReady, false) ;
-function printImage(){
+function printImg(){
     window.DatecsPrinter.listBluetoothDevices(
       function (devices) {
         window.DatecsPrinter.connect(devices[0].address, 
